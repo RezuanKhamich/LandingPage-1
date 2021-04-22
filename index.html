@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container" id="home_page">
+		<div class="nav-container">
+			<input id="menu__toggle" type="checkbox" />
+			<label class="menu__btn" for="menu__toggle">
+				<span></span>
+			</label>
+			<ul class="menu menu__box" id="menu">
+				<a href="#home_page"><li class="menu-list menu__item">HOME</li></a>
+				<a href="#portfolio"><li class="menu-list menu__item">PORTFOLIO</li></a>
+				<a href="#about_us"><li class="menu-list menu__item">ABOUT US</li></a>
+				<a href="#contact"><li class="menu-list menu__item">CONTACT</li></a>
+			</ul>
+		</div>
+		<div class="text-container">
+			<div class="first-page__description">
+				<h1 class="first-title">our strong  organaisation</h1>
+				<p class="first-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<button class="contact-btn">Contact Us</button>
+			</div>
+			<div class="first-page__video">
+				<iframe src="https://www.youtube.com/embed/Kq93yph7wek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content">
+			<div class="text-second__description">
+				<h1 class="about-title">do you know we can  provide for you ?</h1>
+				<p class="first-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
+				<button class="about-btn">Learn More</button>
+			</div>
+			<div class="card-block">
+				<div class="row">
+					<div class="card">
+						<img src="media/Settings.png" alt="">
+						<h3>Management</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor</p>
+					</div>
+					<div class="card">
+						<img src="media/Pencil.png" alt="">
+						<h3>UI/UX Design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card">
+						<img src="media/Diamond.png" alt="">
+						<h3>Logo / Branding</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor</p>
+					</div>
+					<div class="card">
+						<img src="media/Truck_2.png" alt="">
+						<h3>Animation</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr class="line">
+	<div class="container" id="portfolio">
+		<h1 class="product-title">feature products</h1>
+		<p class="second-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et</p>
+		<hr class="text-line">
+		<ul class="product-list">
+			<li class="product-elem" onclick="FilterAll()">all</li>
+			<li class="product-elem" onclick="FilterPrint()">print template</li>
+			<li class="product-elem" onclick="FilterWeb()">web template</li>
+			<li class="product-elem" onclick="FilterIterface()">user interface</li>
+			<li class="product-elem" onclick="FilterMock()">mock-up</li>
+		</ul>
+		<div class="product-card__block">
+			<div>
+				<img class="product-img all print" src="media/picture1.png" alt="">
+				<img class="product-img all print" src="media/picture2.png" alt="">
+				<img class="product-img all web" src="media/picture3.png" alt="">
+				<img class="product-img all mock" src="media/picture4.png" alt="">
+			</div>
+			<div>
+				<img class="product-img all mock" src="media/picture5.png" alt="">
+				<img class="product-img all print" src="media/picture6.png" alt="">
+				<img class="product-img all mock" src="media/picture7.png" alt="">
+				<img class="product-img all interface" src="media/picture8.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="about_us">
+		<div class="content-left">
+			<h1 class="product-title">meet our team</h1>
+			<p class="second-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et</p>
+			<hr class="text-line">
+		</div>
+		<div class="flex-block">
+			<img class="main-pic" src="media/pictureBig.png" alt="">
+			<div class="author-block">
+				<h3 class="product-title author-title">mark waugh</h3>
+				<p class="second-text author-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et</p>
+				<ul class="author-list">
+					<li class="author-elem">Facebook</li>
+					<li class="author-elem">Dribble</li>
+					<li class="author-elem">Behance</li>
+					<li class="author-elem">Twitter</li>
+				</ul>
+				<div class="author-img">
+					<div class="author-img-block">
+						<img class="author-pic" src="media/picture7.png" alt="">
+						<span class="author-span">sokina jue</span>
+					</div>
+					<div class="author-img-block">
+						<img class="author-pic" src="media/picture3.png" alt="">
+						<span class="author-span">sokina jue</span>
+					</div>
+					<div class="author-img-block">
+						<img class="author-pic" src="media/picture2.png" alt="">
+						<span class="author-span">sokina jue</span>
+					</div>
+					<div class="author-img-block">
+						<img class="author-pic" src="media/picture6.png" alt="">
+						<span class="author-span">sokina jue</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container bg-pic">
+		<h3 class="mail-block__title">Design tips, tricks, and freebies. Delivered weekly.</h1>
+		<p class="mail-block__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
+		<div class="mail-form-light">
+			<input class="form-email" type="email" placeholder="Email Address...">
+			<button class="about-btn form-btn">Subscribe</button>
+		</div>
+	</div>
+
+	<div class="container" id="contact">
+		<div class="content-left">
+			<h1 class="product-title">get in touch</h1>
+			<p class="second-text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do ut labore et.</p>
+			<hr class="text-line">
+		</div>
+		<div class="contact-block">
+			<form class="form-output" action="#">
+				<div class="form-flex">
+					<input class="form-futter" type="text" placeholder="Name">
+					<input class="form-futter" type="email" placeholder="Your Mail">
+				</div>
+				<textarea class="form-email form-futter form-area" name="" id="" cols="30" rows="10" placeholder="Type your message"></textarea>
+				<input class="form-btn all-width" type="submit" value="send message">
+			</form>
+			<div class="info-block">
+				<h3 class="contact-title">contact info</h3>
+				<p class="contact-text">Oktybrskaya 24 / A, Moscow, Russia</p>
+				<p class="contact-text">khamukov1996@mail.ru</p>
+				<p class="contact-text">(+7) 965 215 1601</p>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-content">
+			<p>© Copyright @April 2021, All rights reserved.</p>
+			<div>
+				<a class="ico-ref" href=""><img  src="media/twitter.png" alt=""></a>
+				<a class="ico-ref" href=""><img src="media/inc.png" alt=""></a>
+				<a class="ico-ref" href=""><img src="media/gmail.png" alt=""></a>
+				<a class="ico-ref" href=""><img src="media/facebook.png" alt=""></a>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
