@@ -581,6 +581,10 @@ iframe{
 	  }
 	  .card{
 		text-align: center;
+		margin: 0 10px;
+	  }
+	  .card>p{
+		font-size: 10px;
 	  }
 	  .card>img{
 		margin-bottom: 8px;
